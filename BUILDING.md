@@ -20,7 +20,7 @@ Follow these steps:
 
 2. Run the [build.sh](scripts/build.sh) script to build `coremltools`. 
 	* By default this script uses Python 3.7, but you can include `--python=3.6` (or `3.7`, `3.8`, `3.9`, `3.10`) as a argument to change the Python version.
-	* The script creates a new `build` folder with the coremltools distribution, and a `dist` folder with Python wheel files.
+	* The script creates a new `build` folder with the coremltools distribution. If you include `--dist`, it will also create a `dist` folder inside `build` with Python wheel files.
 	
 3. Run the [test.sh](scripts/test.sh) script to test the build.
 
